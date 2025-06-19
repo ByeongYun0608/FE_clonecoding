@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #343a40;
+  padding: 0.5rem;
+  z-index: 999;
+}
+
+.navbar {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.navbar {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 좌우 정렬 */
+}
+
+.menu-icon {
+  width: 28px;
+  height: 28px;
+  color: white;
+  cursor: pointer;
+}
