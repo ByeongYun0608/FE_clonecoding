@@ -23,7 +23,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 (이곳에 구현한 이미지를 이곳에 첨부해주세요. 아래는 예시 이미지입니다.)
 
-![](https://velog.velcdn.com/images/wuzoo/post/509d4112-3edb-482d-82cb-89edf105a060/image.png)
+![구현사진]("C:\Users\임병윤\2025 인하대\멋사 13기\클론코딩1 사진...png")
 
 ## 구현 조건
 
@@ -36,3 +36,18 @@ https://getbootstrap.com/docs/4.3/examples/album/
 주된 컴포넌트인 헤더, 푸터, 포토카드(사진과 글이 있는 것), 버튼에 대해 어떤 계층으로 설계했는지 이곳에 작성해주세요. 그리고 자식 컴포넌트 들에 대해서 어떤 의도를 갖고 설계했는지(ex 정렬하기 위해서, border를 주기 위해서 등) 부담없이 간단하게 적으면 됩니다. (아래는 예시입니다.)
 
 ![](https://velog.velcdn.com/images/wuzoo/post/ab092dd4-595e-41ab-a850-85cab0c83e80/image.png)
+
+컴포넌트 계층 구조
+App
+   - Header: 상단 네비게이션 바(로고, 메뉴 아이콘)
+   - AlbumPage: 
+      - Card: 사진, 텍스트, 버튼, 시간 정보 포함
+      - Footer: 생략
+자식 컴포넌트 설계 의도
+Header:
+   - 사이트의 상단에 고정되도록
+   - 로고와 메뉴를 좌우 정렬하기 위해 flex 사용
+Card:
+   - 사진, 글, 버튼, 시간 정보를 하나의 카드로 묶음
+   - 카드 내부 요소 정렬 및 여백, border 등 시각적 구분을 위해 설계
+   - 버튼 그룹은 정렬과 구분선 추가를 위해 별도 div로 분리
