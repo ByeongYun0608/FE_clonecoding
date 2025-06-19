@@ -23,7 +23,7 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 (이곳에 구현한 이미지를 이곳에 첨부해주세요. 아래는 예시 이미지입니다.)
 
-![구현사진](https://github.com/ByeongYun0608/FE_clonecoding/blob/main/assets/cc1.png?raw=true)
+<img width="600" alt="구현화면" src="https://github.com/user-attachments/assets/6ce11428-0891-457c-a13f-e1a62be93794" />
 
 ## 구현 조건
 
